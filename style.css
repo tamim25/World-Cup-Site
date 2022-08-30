@@ -176,3 +176,52 @@ main {
 .social-icon img{
     width: 2%;
 }
+
+/* Media Queries */
+/* Mobile Screen */
+@media only screen and (max-width:688px){
+    main{
+        display: block;
+    }
+    .container{
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+    .top-banner{
+        display: block;
+    }
+    .right-side img{
+        margin-top: 20px;
+        max-width: fit-content;
+    }
+   .match-filter{
+    background-color: #ffffff;
+    width: auto;
+   }
+    .news{
+        grid-template-columns: repeat(1,1fr);
+        margin: 24px;
+    }
+    .footer{
+        height: 500px;
+        text-align: center;
+    }
+    .footer h1{
+        text-align: center;
+    }
+    .footer .menu{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    .menu a{
+        padding: 10px;
+    }
+    .footer .social-icon{
+        text-align: center;
+    }
+    .footer .social-icon img{
+        width: 10%;
+    }
+}
